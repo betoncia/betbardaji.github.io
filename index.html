@@ -4,166 +4,250 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bet Bardaji — Data & Analytics</title>
+  <meta name="description" content="Bet Bardaji — Data & Analytics, healthcare & biotech-oriented. Experience across data engineering, analytics, and biomedical research." />
   <style>
+    :root { --text:#111; --muted:#666; --border:#e6e6e6; --link:#0066cc; --bg:#fff; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #ffffff;
-      color: #111;
+      margin: 0; padding: 0; line-height: 1.6; background: var(--bg); color: var(--text);
     }
-    .wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 20px;
+    .wrap { max-width: 980px; margin: 0 auto; padding: 44px 20px; }
+    h1 { margin: 0 0 6px; font-size: 34px; letter-spacing: -0.2px; }
+    h2 { margin: 44px 0 14px; font-size: 22px; }
+    h3 { margin: 0 0 6px; font-size: 16px; }
+    p { margin: 8px 0; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .topline { display:flex; flex-wrap:wrap; gap:10px 18px; align-items:baseline; }
+    .subtitle { color: #333; font-size: 16px; margin: 0 0 6px; }
+    .meta { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+    .pillrow { display:flex; flex-wrap:wrap; gap:8px; margin-top: 10px; }
+    .pill {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+      color: #222;
+      background: #fafafa;
+      white-space: nowrap;
     }
-    h1 {
-      margin-bottom: 4px;
-      font-size: 32px;
-    }
-    h2 {
-      margin-top: 48px;
-      margin-bottom: 16px;
-      font-size: 22px;
-    }
-    p {
-      margin: 8px 0;
-    }
-    .subtitle {
-      font-size: 16px;
-      color: #444;
-    }
-    .meta {
-      color: #666;
-      font-size: 14px;
-      margin-bottom: 24px;
+    .grid { display:grid; grid-template-columns: 1fr; gap: 14px; }
+    @media (min-width: 900px) {
+      .grid2 { grid-template-columns: 1.1fr 0.9fr; gap: 18px; }
     }
     .card {
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 18px;
-      margin-top: 16px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 18px 16px;
       background: #fff;
     }
-    ul {
-      margin: 8px 0 0 18px;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .footer {
-      margin-top: 60px;
+    .role { display:flex; flex-wrap:wrap; gap: 10px; justify-content: space-between; align-items: baseline; }
+    .where { color: var(--muted); font-size: 13px; }
+    ul { margin: 10px 0 0 18px; }
+    .small { color: var(--muted); font-size: 13px; }
+    .btnrow { display:flex; flex-wrap:wrap; gap: 10px; margin-top: 12px; }
+    .btn {
+      display:inline-block;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
       font-size: 14px;
-      color: #666;
+      background: #fafafa;
     }
+    .btn strong { font-weight: 600; }
+    .footer { margin-top: 56px; color: var(--muted); font-size: 13px; }
+    .sectionnote { color: var(--muted); font-size: 13px; margin-top: -6px; }
   </style>
 </head>
 
 <body>
   <div class="wrap">
-
-    <h1>Bet Bardaji</h1>
+    <div class="topline">
+      <h1>Bet Bardaji</h1>
+    </div>
     <p class="subtitle">Data & Analytics · Healthcare & Biotech-oriented</p>
-    <p class="meta">Barcelona, Spain — open to relocation / remote</p>
+    <p class="meta">Barcelona, Spain — open to relocation / remote · English (C2)</p>
+
+    <div class="btnrow">
+      <a class="btn" href="https://www.linkedin.com/in/bet-b-320431251/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>
+      <a class="btn" href="https://github.com/betoncia" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a>
+      <a class="btn" href="Bet%20Bardaji%20Bofill%20CV%202025.pdf" target="_blank" rel="noopener noreferrer"><strong>Download CV (PDF)</strong></a>
+      <a class="btn" href="mailto:bardajibet@gmail.com"><strong>Email</strong></a>
+    </div>
 
     <h2>Profile</h2>
     <p>
-      Data professional with experience across analytics, data engineering, and biomedical research.
-      Background in biology and data science, with hands-on work on complex datasets in both
-      enterprise and healthcare contexts. Interested in roles where data quality, analysis,
-      and scientific rigor directly support decision-making or research impact.
+      Data Engineer and Analyst with ~3 years of experience building scalable data pipelines in Databricks (PySpark) for enterprise reporting,
+      combined with biomedical research experience in Argentina and Malaysia. I aim to apply my data and analytics skills to healthcare/biotech
+      problems, especially in neurological disease contexts.
+    </p>
+    <p class="sectionnote">
+      (Public page: no company-confidential code or data. Case-study style descriptions only.)
     </p>
 
-    <h2>Skills</h2>
-    <p>
-      Python · SQL · PySpark · Databricks · Statistics · Machine Learning · Data Quality ·
-      Data Validation · Tableau · Git · REST APIs · Healthcare & Biomedical Data
-    </p>
+    <div class="grid grid2">
+      <div class="card">
+        <h3>Core Skills</h3>
+        <div class="pillrow">
+          <span class="pill">Python (Advanced)</span>
+          <span class="pill">SQL</span>
+          <span class="pill">PySpark</span>
+          <span class="pill">Databricks</span>
+          <span class="pill">Delta Lake</span>
+          <span class="pill">ETL/ELT</span>
+          <span class="pill">Data Quality</span>
+          <span class="pill">RLS / Governance</span>
+          <span class="pill">Tableau</span>
+          <span class="pill">Power BI</span>
+          <span class="pill">REST / APIs</span>
+          <span class="pill">ML (clustering, prediction, CNN basics)</span>
+        </div>
+        <p class="small">
+          Also: YAML, Pandas/NumPy, scikit-learn, Spark SQL, CI/CD with Git, ADLS/ADF, Redshift, Synapse, Power Automate/Power Apps, Docker (basic).
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Languages</h3>
+        <ul>
+          <li>Catalan — Native</li>
+          <li>Spanish — Native</li>
+          <li>English — C2 (Full Professional)</li>
+          <li>German — A2</li>
+          <li>French — A1</li>
+        </ul>
+      </div>
+    </div>
 
     <h2>Experience</h2>
 
     <div class="card">
-      <b>Schneider Electric — Finance Data Engineer</b>
-      <span class="meta">(2024–Present)</span>
+      <div class="role">
+        <div>
+          <h3>Schneider Electric — Finance Data Engineer</h3>
+          <div class="where">Barcelona, Spain · March 2024 – Present</div>
+        </div>
+      </div>
       <ul>
-        <li>Owned production-grade data pipelines in Databricks (PySpark, SQL, Delta Lake) supporting global reporting datasets.</li>
-        <li>Designed validation, schema evolution, and versioning logic to ensure data quality, traceability, and audit readiness.</li>
-        <li>Delivered curated datasets to BI tools (Tableau) and automated business workflows via APIs and orchestration jobs.</li>
+        <li>Built and maintained finance data pipelines in Databricks (PySpark, SQL, Delta Lake) to support global reporting.</li>
+        <li>Automated recurring processes (approvals/security/ops), reducing manual workload and operational risk.</li>
+        <li>Optimized pipeline performance and reliability; delivered curated datasets to BI tooling (e.g., Tableau).</li>
       </ul>
     </div>
 
     <div class="card">
-      <b>Schneider Electric — Data Science Intern</b>
-      <span class="meta">(2023–2024)</span>
+      <div class="role">
+        <div>
+          <h3>Schneider Electric — Data Scientist Intern</h3>
+          <div class="where">2023 – 2024</div>
+        </div>
+      </div>
       <ul>
-        <li>Applied clustering and segmentation techniques to analyze commercial and sales datasets.</li>
-        <li>Developed Python-based duplicate detection and data quality checks across enterprise systems.</li>
-        <li>Produced analytical outputs and dashboards to support data-driven business decisions.</li>
+        <li>Developed clustering/segmentation analyses on commercial and sales datasets.</li>
+        <li>Implemented Python-based duplicate detection and data quality checks across enterprise systems.</li>
+        <li>Produced dashboards/analysis outputs to support decision-making.</li>
       </ul>
     </div>
 
     <div class="card">
-      <b>CONICET — Research Assistant (Parkinson’s Disease)</b>
-      <span class="meta">(2022)</span>
+      <div class="role">
+        <div>
+          <h3>CONICET — Research (Parkinson’s Disease)</h3>
+          <div class="where">Argentina · 2023 – 2024</div>
+        </div>
+      </div>
       <ul>
-        <li>Conducted applied research on Parkinson’s Disease, focusing on the renin–angiotensin pathway as a potential therapeutic target.</li>
-        <li>Developed a software tool using movement sensor data to detect early tremor patterns in patients’ arm movements.</li>
-        <li>Applied statistical analysis and machine learning methods to public biomedical datasets to identify early predictors.</li>
+        <li>Researched the Renin–Angiotensin system as a potential target for Parkinson’s treatment strategies.</li>
+        <li>Built and validated predictive models (CNNs + statistical models) using a large patents database; applied text mining to literature/patent data.</li>
+        <li>Designed data preprocessing pipelines for biomedical datasets; collaborated with an international team with reproducible analyses and weekly updates.</li>
+        <li>Supported research outputs with figures, visualizations, and summaries of results.</li>
       </ul>
     </div>
 
     <div class="card">
-      <b>Monash University Malaysia — Research Assistant</b>
-      <span class="meta">(2022)</span>
+      <div class="role">
+        <div>
+          <h3>Universidad Abierta Interamericana — Associate Researcher</h3>
+          <div class="where">2021 – 2022</div>
+        </div>
+      </div>
       <ul>
-        <li>Supported biomedical research projects through data collection, preprocessing, and exploratory analysis.</li>
+        <li>Designed algorithms to clean duplicates across finance databases to improve data accuracy.</li>
+        <li>Developed Tableau dashboards and visualizations for finance KPIs.</li>
+        <li>Conducted clustering, web scraping, and ML experiments (including NLP-related work).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="role">
+        <div>
+          <h3>Monash University Malaysia — Data Analyst Internship (Epilepsy / Zebrafish)</h3>
+          <div class="where">2020 – 2021</div>
+        </div>
+      </div>
+      <ul>
+        <li>Assisted research on epilepsy development in zebrafish models; designed experiments and data collection protocols.</li>
+        <li>Processed biological datasets; applied statistical analysis and ML models (classification/regression) to detect patterns.</li>
+        <li>Supported publications and academic reporting, ensuring data integrity.</li>
       </ul>
     </div>
 
     <h2>Selected Projects</h2>
+    <p class="sectionnote">A short set of public projects that align with healthcare/biotech + applied analytics.</p>
     <div class="card">
       <ul>
         <li>
           <a href="https://github.com/betoncia/Image-segmentation-Medical-imaging" target="_blank" rel="noopener noreferrer">
             Medical Image Segmentation
-          </a> — Applied image processing and ML techniques for medical imaging data.
+          </a>
+          <span class="small">— medical imaging / applied ML</span>
         </li>
         <li>
           <a href="https://github.com/betoncia/Signal-and-sensors-preprocessing" target="_blank" rel="noopener noreferrer">
             Signal & Sensor Processing
-          </a> — Preprocessing and analysis of sensor-based time-series data.
+          </a>
+          <span class="small">— time-series preprocessing and analysis</span>
         </li>
         <li>
           <a href="https://github.com/betoncia/bioinformatics-genomiccode" target="_blank" rel="noopener noreferrer">
             Bioinformatics & Genomics
-          </a> — Exploratory work on genomic and biological data pipelines.
+          </a>
+          <span class="small">— exploratory pipelines on biological/genomic data</span>
         </li>
       </ul>
     </div>
 
     <h2>Education</h2>
-    <ul>
-      <li>MSc Data Science — Universitat Rovira i Virgili</li>
-      <li>BSc Biology — Universitat de Barcelona</li>
-      <li>Johns Hopkins University — Center for Talented Youth (CTY), Advanced Mathematics & Logic</li>
-    </ul>
+    <div class="card">
+      <ul>
+        <li>Universitat Rovira i Virgili — Master in Biomedical Data Science (2022–2024)</li>
+        <li>Nuclio Digital School — Master in Data Science (2022–2023)</li>
+        <li>Universitat de Barcelona — Bachelor’s in Biology (2018–2022)</li>
+        <li class="small">Monash University Malaysia — specialization in Neurobiology & Genetics (focus on statistical modeling, Python/R, healthcare data)</li>
+      </ul>
+    </div>
 
-    <h2>Contact</h2>
-    <p>
-      <a href="https://www.linkedin.com/in/bet-b-320431251/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
-      <a href="https://github.com/betoncia" target="_blank" rel="noopener noreferrer">GitHub</a> ·
-      <a href="Bet%20Bardaji%20Bofill%20CV%202025.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
-    </p>
+    <h2>Awards & Volunteering</h2>
+    <div class="grid grid2">
+      <div class="card">
+        <h3>Awards</h3>
+        <ul>
+          <li>Johns Hopkins University — High Honours (2016)</li>
+          <li>Best Research Project (High School Badalonés, Barcelona): “Epigenetics on monozygotic twins”</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Volunteering</h3>
+        <ul>
+          <li>Association of Single Parent Families (2015–2020) — support tasks and childcare during holidays.</li>
+          <li>CorsAvi (2020–2021) — writing letters to seniors in nursing homes.</li>
+        </ul>
+      </div>
+    </div>
 
     <div class="footer">
       © Bet Bardaji — Data, Analytics & Biomedical Applications
     </div>
-
   </div>
 </body>
 </html>
